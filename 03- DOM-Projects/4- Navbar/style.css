@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.navbar {
+  background: white;
+  box-shadow: 0 1px 10px rgb(202, 202, 202);
+}
+
+.nav-center {
+  padding: 0.5rem 0;
+}
+
+.nav-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.bars {
+  align-self: center;
+  color: rgb(80, 164, 197);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.bars:hover {
+  transform: rotate(90deg);
+  color: rgb(65, 64, 64);
+}
+
+.social-links {
+  display: none;
+}
+
+.nav-items {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.show {
+  height: 176px;
+  transition: all 0.3s linear;
+}
+
+.logo-img {
+  height: 2.5rem;
+}
+
+.nav-item {
+  padding: 0.8rem 0;
+  display: grid;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  color: rgb(54, 54, 54);
+  padding-left: 1rem;
+  transition: all 0.3s linear;
+}
+
+.nav-item:hover {
+  background-color: rgb(196, 253, 255);
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    height: 4rem;
+    display: grid;
+    place-content: center;
+  }
+
+  .social-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0 1rem;
+    color: rgb(80, 164, 197);
+  }
+
+  .social-links > * {
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+
+  .social-links > *:hover {
+    opacity: 0.5;
+  }
+
+  .nav-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 0;
+  }
+
+  .bars {
+    display: none;
+  }
+
+  .nav-header {
+    display: block;
+    width: 15rem;
+    margin: 0;
+    justify-self: center;
+  }
+
+  .nav-items {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .nav-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-item:hover .nav-link {
+    color: rgb(67, 203, 245);
+  }
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f9;
+  font-family: sans-serif;
+}
+
+.section-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.7rem;
+  color: #1e293b;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 0.5rem;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.2rem;
+  color: rgb(70, 70, 70);
+}
+
+input {
+  width: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.25rem;
+}
+
+::placeholder {
+  font-size: 1.25rem;
+  padding-left: 0.1rem;
+}
+
+.btn {
+  background: rgb(63, 179, 224);
+  border: 1px solid rgb(63, 179, 224);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  letter-spacing: 1.5px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-left: 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  color: rgb(1, 84, 117);
+}
+
+.lorem-text {
+  margin: 5rem auto 0 auto;
+}
+
+p {
+  color: #617d98;
+  max-width: 40rem;
+  line-height: 1.5;
+  font-size: 1.05rem;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 1.5rem auto 0 auto;
+}

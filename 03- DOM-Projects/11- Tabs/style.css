@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  line-height: 1.3;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: hsl(210deg 36% 96%);
+}
+
+.header {
+  display: grid;
+  place-content: center;
+}
+
+.header-center {
+  padding-top: 5rem;
+}
+
+.section-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 3rem 0 4rem 0;
+}
+
+.header-text {
+  display: grid;
+  place-items: center;
+  gap: 1rem 0;
+  text-align: center;
+}
+
+.heading {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+}
+
+.sub-heading {
+  width: 80%;
+  line-height: 1.5;
+  color: grey;
+}
+
+.hero-img {
+  border-radius: 0.5rem;
+}
+
+.photo {
+  border-radius: 0.5rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.hero-btns {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.btn {
+  background: rgb(228, 228, 228);
+  font-family: sans-serif;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  color: rgb(0, 175, 245);
+  background: rgb(219, 235, 240);
+}
+
+.btn:first-child {
+  border-top-left-radius: 0.5rem;
+}
+
+.btn:last-child {
+  border-top-right-radius: 0.5rem;
+}
+
+.hero-text {
+  padding: 2rem 1rem 3rem 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: none;
+  margin: 0 auto;
+}
+
+.active {
+  background: white;
+  display: block;
+}
+
+.hero-title {
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.hero-subtitle {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: grey;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 992px) {
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+    align-items: start;
+  }
+
+  .hero-container {
+    align-self: start;
+  }
+
+  .hero-btns {
+    margin-top: 0;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}

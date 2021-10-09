@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galley</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css" />
+  </head>
+  <body>
+    <section class="section section-nature">
+      <img src="./images/nature-1.jpeg" alt="" data-id="1" title="nature-1" class="img"/>
+      <img src="./images/nature-2.jpeg" alt="" data-id="2" title="nature-2" class="img"/>
+      <img src="./images/nature-3.jpeg" alt="" data-id="3" title="nature-3" class="img"/>
+    </section>
+
+    <section class="section section-city">
+      <img src="./images/city-1.jpeg" alt="" data-id="1" title="city-1" class="img"/>
+      <img src="./images/city-2.jpeg" alt="" data-id="2" title="city-2" class="img"/>
+      <img src="./images/city-3.jpeg" alt="" data-id="3" title="city-3" class="img"/>
+      <img src="./images/city-4.jpeg" alt="" data-id="4" title="city-4" class="img"/>
+      <img src="./images/city-5.jpeg" alt="" data-id="5" title="city-5" class="img"/>
+    </section>
+
+    <div class="modal">
+      <div class="modal-center">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-content">
+          <button class="slider-prev slider">
+            <i class="fas fa-angle-left btn prev"></i>
+          <button>
+
+          <button class="slider-next slider">
+            <i class="fas fa-angle-right btn next"></i>
+          </button>
+          <div class="modal-image">
+            <img src="./images/nature-1.jpeg" alt="" class="main-img" />
+            <h1 class="title">nature-1</h1>
+          </div>
+
+          <div class="modal-footer-images">
+            <img src="./images/nature-1.jpeg" alt="" class="modal-images" />
+            <img src="./images/nature-2.jpeg" alt="" class="modal-images" />
+            <img src="./images/nature-3.jpeg" alt="" class="modal-images" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
