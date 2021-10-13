@@ -1,0 +1,43 @@
+1. AJAX = Asynchronous JavaScript and XML. Though we can use XML to store data instead we will use JSON, since almost every app uses that.
+
+2. HTTP Request = Communication b/w client and server.
+
+3. API = Application Programming Interface
+
+4. XMLHttpRequest (XHR) objects are used to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to update just part of a page without disrupting what the user is doing.
+
+XMLHttpRequest.onreadystatechange = callback; 
+callback is the function to be executed when the readyState changes.
+
+5. The XMLHttpRequest.readyState property returns the state an XMLHttpRequest client is in. An XHR client exists in one of the following states:
+
+0	UNSENT =>	Client has been created. open() not called yet.
+1	OPENED =>	open() has been called.
+2	HEADERS_RECEIVED =>	send() has been called, and headers and status are available.
+3	LOADING	 => Downloading; responseText holds partial data.
+4	DONE =>	The operation is complete.
+
+6. The read-only XMLHttpRequest.status property returns the numerical HTTP status code of the XMLHttpRequest's response. Before the request completes, the value of status is 0. Browsers also report a status of 0 in case of XMLHttpRequest errors.
+
+/*
+ * Outputs the following:
+ *
+ * UNSENT: 0
+ * OPENED: 0
+ * LOADING: 200
+ * DONE: 200
+*/
+
+7. The read-only XMLHttpRequest.statusText property returns a DOMString containing the response's status message as returned by the HTTP server. Unlike XMLHTTPRequest.status which indicates a numerical status code, this property contains the text of the response status, such as "OK" or "Not Found". If the request's readyState is in UNSENT or OPENED state, the value of statusText will be an empty string.
+
+If the server response doesn't explicitly specify a status text, statusText will assume the default value "OK".
+
+8. The read-only XMLHttpRequest property responseText returns the text received from a server following a request being sent.
+var resultText = XMLHttpRequest.responseText;
+
+9. The XMLHttpRequest method open() initializes a newly-created request, or re-initializes an existing one.
+XMLHttpRequest.open(method, url[, async[, user[, password]]]).
+The HTTP request method to use, such as "GET", "POST", "PUT", "DELETE", etc. Ignored for non-HTTP(S) URLs.
+
+10. The XMLHttpRequest method send() sends the request to the server. send() accepts an optional parameter which lets you specify the request's body; this is primarily used for requests such as PUT. If the request method is GET or HEAD, the body parameter is ignored and the request body is set to null.
+XMLHttpRequest.send() or XMLHttpRequest.send(body)
