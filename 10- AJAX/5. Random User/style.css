@@ -119,6 +119,6 @@
   background: rgb(0, 136, 136);
 }
 
-.active {
+.active .icon {
   color: rgb(0, 182, 182);
 }
