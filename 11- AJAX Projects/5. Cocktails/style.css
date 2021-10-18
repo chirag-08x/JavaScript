@@ -186,7 +186,7 @@ li {
 }
 
 .preloader {
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
   place-items: center;
   position: absolute;
