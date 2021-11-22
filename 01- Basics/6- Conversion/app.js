@@ -31,3 +31,13 @@ const result6 = num3 + num4;
 console.log(result6);
 
 // While addding if both of them are String output will be string, if one of them is string and another one is Integer we will still get string as an output.
+
+// Converting String to number
+let x = "5";
+y = Number(x);
+y2 = parseInt(x);
+log(y);
+log(y2);
+
+// Converting to float ==> parseFloat()
+// Converting to String ==> num.toString(), String(num)

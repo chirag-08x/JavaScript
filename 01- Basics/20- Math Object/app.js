@@ -5,6 +5,7 @@
 // min = returns minimum value.
 // max = returns maximum value.
 // random = return random number b/w (0 - 0.9999999999999999) inclusive
+// pow(base, exponent)
 const number = 4.56;
 
 const result = Math.floor(number);

@@ -22,6 +22,7 @@ console.log(text.toUpperCase());
 // Character at an index
 console.log(text.charAt(2));
 console.log(text.charAt(text.length - 1));
+console.log(text[2]);
 // Index of an element  ==> Returns the first instance of the element, if element is not found it returns -1.
 console.log(text.indexOf("P"));
 console.log(text.indexOf("r"));

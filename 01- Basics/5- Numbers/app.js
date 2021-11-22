@@ -38,4 +38,10 @@ console.log(val);
 val++;
 console.log(val);
 
+// Power
+const x = 2;
+const y = 3;
+const exponent = x ** y;
+console.log(exponent);
+
 // All mathematical operations follow BODMAS Rule.
