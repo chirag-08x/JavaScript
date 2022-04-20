@@ -9,6 +9,10 @@
 // lastChild = Returns the last Child of the Selected Element, but it will also include text-node, so last
 // child will always be textNode.
 
+// firstElementChild = Returns the first child, doensn't includes whitespaces.
+
+// lastElementChild = Returns the last child, doensn't includes whitespaces.
+
 const result = document.querySelector("#result");
 const allChild = result.childNodes;
 console.log(allChild);
