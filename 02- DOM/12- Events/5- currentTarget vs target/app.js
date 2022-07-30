@@ -6,7 +6,7 @@ const btns = document.querySelectorAll(".btn");
 
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
-    // e.currentTarget.style.color = "blue";
-    e.target.style.color = "blue";
+    e.currentTarget.style.color = "blue";
+    // e.target.style.color = "blue";
   });
 });

@@ -5,14 +5,14 @@ const fruits = ["banana", "apple", "orange", "peach"];
 const longname = "John smith pepper III";
 let shortName = "";
 
-for (fruit of fruits) {
+for (const fruit of fruits) {
   if (fruit == "peach") {
     break;
   }
   console.log(fruit);
 }
 
-for (letter of longname) {
+for (const letter of longname) {
   if (letter == " ") {
     continue;
   }

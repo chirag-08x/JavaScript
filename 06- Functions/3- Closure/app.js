@@ -22,7 +22,7 @@ outer();
 
 // Method 1
 const result = outer();
-console.log(result);
+console.log("result", result);
 result();
 
 // Method 2

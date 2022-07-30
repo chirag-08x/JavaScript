@@ -1,6 +1,13 @@
-const div = document.createElement("div");
-const body = document.body;
+class Person {
+  talk() {
+    console.log("I am talking");
+  }
+}
 
-div.innerHTML = "<h1>added dynamically</h1>";
+const me = new Person();
+me.talk();
+const you = new Person();
+you.talk();
 
-body.appendChild(div);
+// console.log(Person.prototype);
+// console.log(me.prototype);
