@@ -1,7 +1,7 @@
 // To get the children of a selected Node we can use -
 // childNodes = Returns all the childNodes, but it also includes the whitespace which is treated as a text node
 
-// children = Returns only the actual children without the whitespaces counting as text nodes. Returns the Node List.
+// children = **Returns only the actual children without the whitespaces counting as text nodes. Returns the Node List.
 
 // firstChild = Returns the first Child of the Selected Element, but it will also include text-node, so first
 // child will always be textNode.
@@ -9,9 +9,9 @@
 // lastChild = Returns the last Child of the Selected Element, but it will also include text-node, so last
 // child will always be textNode.
 
-// firstElementChild = Returns the first child, doensn't includes whitespaces.
+// firstElementChild = **Returns the first child, doensn't includes whitespaces.
 
-// lastElementChild = Returns the last child, doensn't includes whitespaces.
+// lastElementChild = **Returns the last child, doensn't includes whitespaces.
 
 const result = document.querySelector("#result");
 const allChild = result.childNodes;

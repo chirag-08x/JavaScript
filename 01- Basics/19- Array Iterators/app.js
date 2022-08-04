@@ -11,8 +11,8 @@ const people = [
 ];
 
 // ##############################################################################################################################
-// forEach = Doesn't returns the new array.
-
+// forEach = Doesn't returns the new array. Can be used to change the values of the original Array.
+// forEach((element, index, array) => {})
 // We can also setup this callback function inside our forEach method.
 function showPerson(person) {
   console.log(person);

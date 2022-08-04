@@ -1,5 +1,5 @@
-// previousElementSibling = returns the previous sibling or element before the selected element.
-// nextElementSibling = returns the next sibling or element next to the selected element.
+// previousElementSibling = **returns the previous sibling or element before the selected element.
+// nextElementSibling = **returns the next sibling or element next to the selected element.
 // Does not returns whitespace.
 
 const first = document.querySelector(".first");

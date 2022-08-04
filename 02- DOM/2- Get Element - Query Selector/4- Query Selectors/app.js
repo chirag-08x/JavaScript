@@ -2,8 +2,7 @@
 // Query Selector and Query Selector All.
 // We can pass any selector in Query Selectors, id, class, tags, attribute etc.
 // Query Selector = Selects the first instance of the Selector passed.
-/* Query Selector All = Selects all the instances of the Selector passed. We can also use forEach method on with 
-                        Query Selector All. */
+/* Query Selector All = Selects all the instances of the Selector passed. We can also use forEach method on with Query Selector All. */
 
 const single = document.querySelector("#result");
 console.log(single);

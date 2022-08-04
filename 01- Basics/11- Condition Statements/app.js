@@ -3,7 +3,7 @@
 // ==  Check only for value not for Data Type i.e. "5" == 5 ==> True and 5 == 5 is also True,
 // ===  Check for both value and Data Type, i.e. "5" === 5 ==> False, 5 === 5 ==> true, "5" === "5" ===> true,
 // != Check for value only,
-// !=== Checks for both value and Data Type.
+// !== Checks for both value and Data Type.
 
 //
 if (2 > 1) {

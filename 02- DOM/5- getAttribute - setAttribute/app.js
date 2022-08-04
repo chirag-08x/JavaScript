@@ -1,6 +1,6 @@
 // attributes = class, href, src, id, etc.
-// getAttribute() = get the attribute for the selected element.
-// setAttribute() = set the attribute for the selected element.
+// getAttribute(attribute name) = get the attribute for the selected element.
+// setAttribute(attribute name, value) = set the attribute for the selected element.
 
 // getAttribute(specify the type of attribute you are searching for, ex. class, id, href, etc)
 
