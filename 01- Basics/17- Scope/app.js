@@ -1,13 +1,9 @@
 /*
-Global Scope = Any variable declared outside the code block is called Global Scope, i.e. we can access it from anywhere in the 
-program.
+Global Scope = Any variable declared outside the code block is called Global Scope, i.e. we can access it from anywhere in the program.
 
-Local Scope = Any variable declared inside the code block is called Local Scope, i.e. we can only access it within those block of 
-scopes.
+Local Scope = Any variable declared inside the code block is called Local Scope, i.e. we can only access it within those block of scopes.
 
-The above definition for local and global scope is only applicable to let and const and not to var, since it functions differently 
-and
-it's in best practice not to use it.
+The above definition for local and global scope is only applicable to let and const and not to var, since it functions differently and it's in best practice not to use it.
 */
 
 // Global

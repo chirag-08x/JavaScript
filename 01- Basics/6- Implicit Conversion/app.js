@@ -11,8 +11,7 @@ const result2 = num1 - num2;
 console.log(result2);
 
 /*
-When we apply mathematical operations on Strins, what Js does it tries to convert those strings into the number, and if it can 
-perform those operation it goes ahead and returns an integer value, else returns Nan.
+When we apply mathematical operations on Strins, what Js does it tries to convert those strings into the number, and if it can perform those operation it goes ahead and returns an integer value, else returns Nan.
 */
 
 const result3 = num1 * num2;
@@ -41,3 +40,4 @@ log(y2);
 
 // Converting to float ==> parseFloat()
 // Converting to String ==> num.toString(), String(num)
+// Converting to Number ==> parseInt()

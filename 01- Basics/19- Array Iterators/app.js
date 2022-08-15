@@ -25,7 +25,7 @@ people.forEach(function (human) {
 });
 
 // #############################################################################################################################
-// map = returns the new array. Does not change the size of original Array. This will always return new array which will be size of the original array, if we try to do conditional statements inside map we will get boolean array, i.e. if we do person.age > 22, we will get boolean array it will not filter out the items which are less than 22 of age.
+// map = returns the new array. Does not change the size of original Array. This will always return new array which will be size of the original array, if we try to do conditional statements inside map we will get boolean array, i.e. if we do person.age > 22, we will get boolean array it will not filter out the items which are less than 22 of age. map((element, index, array) => {})
 
 const ages = people.map(function (person) {
   return person.age;
@@ -42,7 +42,7 @@ const newPeople = people.map(function (person) {
 console.log(newPeople);
 
 // ##############################################################################################################################
-// Filter = Returns the new Array. Can manipulate the size of the array. Returns based on the condition. New array size does not necessarily needs to be equal to the original array size.
+// Filter = Returns the new Array. Can manipulate the size of the array. Returns based on the condition. New array size does not necessarily needs to be equal to the original array size. filter((element, index, array) => {})
 
 const youngPeople = people.filter(function (person) {
   return person.age < 30;

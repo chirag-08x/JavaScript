@@ -1,7 +1,6 @@
-// Functions as First Class Objects - can be stored in a variable(expression), can be passed as an argument to another function,
-// can be returned from another function.
+// Functions as First Class Objects - can be stored in a variable(expression), can be passed as an argument to another function, can be returned from another function.
 
-// Higher Order Functions - accepts another function as an argument or returns another function as a result.
+// Higher Order Functions - accepts another function as a parameter or returns another function as a result.
 
 // CallBack Functions - passed to another function as an argument and executed inside that function.
 
