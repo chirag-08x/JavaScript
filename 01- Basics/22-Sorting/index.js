@@ -55,3 +55,40 @@ digits.sort((a, b) => {
 });
 
 console.log(digits);
+
+
+
+// More complex example
+const arr = [
+    {
+        name: "chirag",
+        age: 21
+    },
+    {
+        name: "yash",
+        age: 26
+    },
+    {
+        name: "ayush",
+        age: 18
+    },
+    {
+        name: "saurabh",
+        age: 22
+    },
+    {
+        name: "aarya",
+        age: 23
+    }
+]
+
+arr.sort((a, b) => {
+    return a.name.localeCompare(b.name)
+    // return a.age - b.age; // Sort by age
+    // return b.age - a.age; // Sort by age in descending order
+    // return a.name.length - b.name.length; // Sort by name length
+    // return b.name.length - a.name.length; // Sort by name length in descending order
+    // return a.name.localeCompare(b.name); // Sort by name in alphabetical order
+    // return b.name.localeCompare(a.name); // Sort by name in reverse alphabetical order
+})
+console.log(arr);
