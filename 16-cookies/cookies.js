@@ -35,3 +35,15 @@ document.cookie = `${name}=${value}`;
 
 // To access back the encoded cookie, we need to decode it, if we directly try to access it, it will come along with some encoded special characters
 const currentCookies = decodeURIComponent(document.cookie);
+
+// Getting a specific cookie via name
+function getCookie(name) {
+  const cookiePairs = decodeURIComponent(document.cookie).split("; ");
+
+  for (let pair of cookiePairs) {
+    const [key, value] = pair.split("=");
+    if (key === name) return value;
+  }
+
+  return null;
+}
